@@ -1,8 +1,16 @@
 
 #include <stdio.h>
 
-// main function
-int main()
+// ---Hello World---
+/* int main()
+{
+  printf("hello world\n");
+  return 0;
+}
+*/
+
+// ---Size of Data Type---
+/* int main()
 {
     printf("比特\n");
     printf("%d\n",sizeof(char));
@@ -16,3 +24,26 @@ int main()
 
     return 0;
 }
+*/
+
+//===？Example 1: 写一个代码求两个整数的和===
+// scanf函数是输入函数
+// 问题：无法在output里输入
+/* int main()
+{
+  int a = 0;
+  int b = 0;
+  int sum = 0;
+  printf("Enter 2 intergers");
+  
+  scanf("%d %d", &a, &b);
+  sum = a + b;
+  printf("sum = %d\n", sum);
+
+  return 0;
+
+}*/
+
+// ----Constant ----
+
+
